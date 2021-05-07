@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="#Get">Get the app</a></li>
+                <li class="topnav-right"><a href="#login">Login</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+
+            </ul>
+        </nav>
+        <div class="center">
+            <h1 style="font-family: 'Open Sans', sans-serif">zomato</h1>
+            <h3>Discover the best food and Drinks in India</h3>
+            <form action="Nopage.php">
+                
+            </form>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Search for a Restaurant, cuisine or a dish">
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+    <section class="services">
+        <div class="item" id="item-1">
+            <a href="food1.jpg"><img class="img" src="food1.jpg" alt="" width=180px height=180px></a>
+            <div class="cap"><h1 align="center">Order Food online</h1></div>
+        </div>
+        <div class="item" id="item-1">
+            <a href="food2.jpg"><img class="img" src="food2.jpg" alt="" width=180px height=180px></a>
+            <div class="cap"><h1 align="center">Order Food online</h1></div>
+        </div>
+        <div class="item" id="item-1">
+            <a href="food3.jpg"><img class="img" src="food3.jpg" alt="" width=180px height=180px></a>
+            <div class="cap"><h1 align="center">Order Food online</h1></div>
+        </div>
+        <div class="item" id="item-1">
+            <a href="food4.jpg"><img class="img" src="food4.jpg" alt="" width=180px height=180px></a>
+            <div class="cap"><h1 align="center">Order Food online</h1></div>
+        </div>
+    </section>
+    <section2>
+        <h1>Explore the options for you here</h1>
+        <br/><br/>
+        <h3>Popular cuisines near me</h3>
+        <p></p>
+    </section2>
+
+   <footer>
+
+
+
+
+   </footer>
+   <script>
+    function dropdownMenu()
+    {
+        var x=document.getElementById("dropdownClick");
+        if (x.className==="topnav")
+        {
+            x.className+="responsive"
+        }
+        else
+        {
+            x.className="topnav";
+        }
+    }
+
+
+</script>
+</body>
+</html>
